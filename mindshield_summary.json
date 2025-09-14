@@ -1,0 +1,36 @@
+{
+  "dataset_name": "suicidal_ideation_reddit_annotated",
+  "source_csv": "C:\\Users\\sagni\\Downloads\\Suicidal Detection\\archive\\suicidal_ideation_reddit_annotated.csv",
+  "created_utc": "2025-09-14T09:26:44.329447Z",
+  "text_column_used": "usertext",
+  "label_column_used": "label",
+  "label_mapping": {
+    "0": "non-suicidal",
+    "1": "suicidal"
+  },
+  "sizes": {
+    "train": 8858,
+    "valid": 1898,
+    "test": 1899
+  },
+  "class_balance": {
+    "train": {
+      "1": 4625,
+      "0": 4233
+    },
+    "valid": {
+      "1": 991,
+      "0": 907
+    },
+    "test": {
+      "1": 992,
+      "0": 907
+    }
+  },
+  "splits": {
+    "train": 0.7,
+    "valid": 0.15,
+    "test": 0.15
+  },
+  "random_state": 42
+}

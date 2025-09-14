@@ -1,0 +1,4 @@
+text,pred_label,pred_name,prob_suicidal,highlights
+"I feel okay lately, just a bit stressed about exams.",0,non-suicidal,0.2104050537994849,[]
+Sometimes I just want to disappear.,0,non-suicidal,0.4390754524264109,"[(25, 34, 'ideation_soft')]"
+I am exhausted but I will be fine after some rest.,0,non-suicidal,0.3667858837171598,[]

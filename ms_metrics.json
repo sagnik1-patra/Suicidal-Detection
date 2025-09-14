@@ -1,0 +1,23 @@
+{
+  "created_utc": "2025-09-14T09:30:31.641307Z",
+  "source_csv": "C:\\Users\\sagni\\Downloads\\Suicidal Detection\\archive\\suicidal_ideation_reddit_annotated.csv",
+  "text_column_used": "usertext",
+  "label_column_used": "label",
+  "splits_sizes": {
+    "train": 8858,
+    "valid": 1898,
+    "test": 1899
+  },
+  "test_metrics": {
+    "accuracy": 0.8705,
+    "f1": 0.8766,
+    "precision": 0.8723,
+    "recall": 0.881
+  },
+  "artifacts": {
+    "accuracy_curve_png": "C:\\Users\\sagni\\Downloads\\Suicidal Detection\\ms_accuracy_curve.png",
+    "confusion_matrix_png": "C:\\Users\\sagni\\Downloads\\Suicidal Detection\\ms_confusion_matrix.png",
+    "report_txt": "C:\\Users\\sagni\\Downloads\\Suicidal Detection\\ms_classification_report.txt",
+    "predictions_csv": "C:\\Users\\sagni\\Downloads\\Suicidal Detection\\ms_predictions_test.csv"
+  }
+}
